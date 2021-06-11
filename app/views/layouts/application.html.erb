@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PortfolioIo</title>
+    <title> Suzie Kim </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,15 @@
   </head>
 
   <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <div class="logo" class="main-nav_item"> SK </div>
+          <ul class="main-nav_links"  class="main-nav_items">
+            <li class="main-nav_link"><a href="#"> ✩ resume </a></li>
+            <li class="main-nav_link"><a href="#"> ✩ about me </a></li>
+          </ul>
+      </nav>
+    </header>
     <%= yield %>
   </body>
 </html>
