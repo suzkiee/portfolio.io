@@ -8,7 +8,11 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
-
+  
+  <section class="alerts">
+    <%= render 'layouts/alerts' %>
+  </section>
+  
   <body>
     <header class="main-header">
       <nav class="main-nav">
@@ -19,7 +23,10 @@
           </ul>
       </nav>
     </header>
-      <%= render 'layouts/alerts' %>
-    <%= yield %>
+
   </body>
+  <footer>
+    <% link_to "🔐", destto%>
+  </footer>
+  <%= yield %>
 </html>
