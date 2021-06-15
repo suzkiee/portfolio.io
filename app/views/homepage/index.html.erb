@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+  <body>
+    <section class="intro">
+      <div class="intro__container">
+        <h1 class="main-header"> HI, I'M SUZIE!</h1>
+
+        <h2 class="Tagline">
+          I'm a software engineer & crafter.
+        </h2>
+
+        <p class="intro-text">
+          ✩ HTML ✩ CSS ✩ JAVASCRIPT ✩ RUBY ✩ RAILS ✩
+        </p>
+
+      </div>
+
+      <div class="featured-project__container"> 
+        <div class="featured-project"> featured project</div>
+      </div>
+
+    </section>
+
+    <section class="projects">
+      <div class="project" class="project-right">project 1 </div>
+      <div class="project" class="project-left">project 2 </div>
+      <div class="project" class="project-right">project 3 </div>
+      <div class="project" class="project-left">project 4 </div>
+    </section>
+
+    <section class="about-me">
+
+      <div class="pro-pic__container">
+        <%= image_tag("pro-pic2.jpg", id: 'pro-pic') %>
+      </div>
+
+      <div class="about-me__container">
+        <h2 class="about-me__header"><a id="about-me__link">about me</h2>
+
+        <p>I love crafting things. Whether it's <a href="https://spark.adobe.com/page/3NDdniijyPY7C/"> writing youth program curriculum</a>, sewing clothes or building this website, I love being able to tinker with things and say "I made this!"</p>
+
+        <div class="social__container">
+          <a href="https://github.com/suzkiee"><img alt="Github" <%= image_tag("github.svg", id: 'social_button') %>
+
+          <a href="https://www.instagram.com/sewziethreds/"><img alt="Instagram" <%= image_tag("instagram.svg", id: 'social_button') %>
+
+          <a href="https://www.linkedin.com/in/suzanne-kim/"><img alt="LinkedIn" <%= image_tag("linkedin.svg", id: 'social_button') %>
+
+          <a href="mailto:suziekim.dev@gmail.com"><img alt="Email" <%= image_tag("email.svg", id: 'social_button') %> 
+
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

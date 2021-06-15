@@ -13,3 +13,164 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: poppins;
+    background-image: url('blue-yellow-gradient.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #011E3E;
+    margin-top: none;
+}
+
+h2{
+    line-height: 1.8;
+}
+
+.main-header{
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: poppins;
+  color: #846670;
+  margin: 0;
+  width: 100%;
+}
+
+.main-nav{
+  margin: 0 7% 1% 0;
+  width: 100%;
+  display: block;
+}
+
+.logo{
+  font-size: 2.5rem;
+  margin-left: 10rem;
+  text-align: left;
+  display: inline-block;
+}
+
+.main-nav_items{
+  display: inline-block;
+}
+
+.main-nav_links{
+  color: #846670;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  transition: color 0.3s;
+  transition: margin 0.5s;
+  text-align: right;
+  display: inline-block;
+}
+
+.main-nav_link {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.main-nav_link a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-nav_link:hover{
+    color: #ffe4e0;
+    text-shadow: 1px 2px #846670;
+}
+
+.intro,
+.projects,
+.about-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.intro__container{
+    grid-column-start: 1;
+    width: 65%;
+    margin: auto;
+    border: 10px black;
+}
+
+.featured-project__container{
+  grid-column-start: 2;
+  height:510px;
+}
+
+.featured-project{
+  height: 500px;
+  background: #FFA;
+  width: 95%;
+  margin: auto;
+  border: 15px #fff;
+  padding: 10px;
+  border-radius: 22px;
+
+}
+
+.featured-project:hover{
+  border: 10px solid white;
+}
+
+.projects{
+ margin-top: 9rem;
+}
+
+.project{
+  height: 500px;
+  background: #FFA;
+  width: 95%;
+  border-radius: 22px;
+  margin: auto auto 7rem auto;
+}
+
+.project-right{
+  grid-column-start: 1;
+  margin: auto;
+}
+
+.project-left{
+  grid-column-start: 2;
+  margin: auto;
+}
+
+.about-me__container{
+    grid-column-start: 2;
+    width: 65%;
+    margin: auto;
+}
+
+.about-me__header{
+    color: #846670;
+    font-size: 1.25rem;
+}
+
+p {
+    line-height: 2.5;
+    width: 30rem;
+  }
+
+.pro-pic__container{
+  grid-column-start: 1;
+  margin: auto;
+  width: 50%;
+}
+
+#pro-pic{
+    border: 3px #fff;
+    border-radius: 22px;
+    height: auto;
+    width: 100%;
+    box-shadow: 35px 17px 10px #f0f8ff;
+}
+
+#social_button {
+ height: 3rem;
+ width: auto;
+ padding-right: .5rem;
+}
